@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D73D776F-A529-413D-8444-F650B75140D5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AdventOfCode</RootNamespace>
+    <AssemblyName>AdventOfCode</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="2020\Jour10_2020.cs" />
+    <Compile Include="2020\Jour11_2020.cs" />
+    <Compile Include="2020\Jour12_2020.cs" />
+    <Compile Include="2020\Jour13_2020.cs" />
+    <Compile Include="2020\Jour14_2020.cs" />
+    <Compile Include="2020\Jour15_2020.cs" />
+    <Compile Include="2020\Jour16_2020.cs" />
+    <Compile Include="2020\Jour17_2020.cs" />
+    <Compile Include="2020\Jour18_2020.cs" />
+    <Compile Include="2020\Jour19_2020.cs" />
+    <Compile Include="2020\Jour3_2020.cs" />
+    <Compile Include="2020\Jour4_2020.cs" />
+    <Compile Include="2020\Jour5_2020.cs" />
+    <Compile Include="2020\Jour6_2020.cs" />
+    <Compile Include="2020\Jour7_2020.cs" />
+    <Compile Include="2020\Jour8_2020.cs" />
+    <Compile Include="2020\Jour9_2020.cs" />
+    <Compile Include="2021\Jour14_2021.cs" />
+    <Compile Include="2021\Jour10_2021.cs" />
+    <Compile Include="2021\Jour11_2021.cs" />
+    <Compile Include="2021\Jour12_2021.cs" />
+    <Compile Include="2021\Jour13_2021.cs" />
+    <Compile Include="2021\Jour15_2021.cs" />
+    <Compile Include="2021\Jour16_2021.cs" />
+    <Compile Include="2021\Jour17_2021.cs" />
+    <Compile Include="2021\Jour18_2021.cs" />
+    <Compile Include="2021\Jour1_2021.cs" />
+    <Compile Include="2021\Jour2_2021.cs" />
+    <Compile Include="2021\Jour3_2021.cs" />
+    <Compile Include="2021\Jour4_2021.cs" />
+    <Compile Include="2021\Jour5_2021.cs" />
+    <Compile Include="2021\Jour6_2021.cs" />
+    <Compile Include="2021\Jour7_2021.cs" />
+    <Compile Include="2021\Jour8_2021.cs" />
+    <Compile Include="2021\Jour9_2021.cs" />
+    <Compile Include="2022\Jour4_2022.cs" />
+    <Compile Include="2022\Jour1_2022.cs" />
+    <Compile Include="2022\Jour2_2022.cs" />
+    <Compile Include="2022\Jour3_2022.cs" />
+    <Compile Include="2022\Jour5_2022.cs" />
+    <Compile Include="2022\Jour6_2022.cs" />
+    <Compile Include="IJour.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
