@@ -49,7 +49,8 @@ namespace AdventOfCode
             //ProcessTask(new Jour3_2022(), 3);
             //ProcessTask(new Jour4_2022(), 4);
             //ProcessTask(new Jour5_2022(), 5);
-            ProcessTask(new Jour6_2022(), 6);
+            //ProcessTask(new Jour6_2022(), 6);
+            ProcessTask(new Jour7_2022(), 7);
 
             Console.WriteLine("Press a key to exit...");
             Console.ReadKey();
