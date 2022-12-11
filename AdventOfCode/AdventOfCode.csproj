@@ -86,6 +86,7 @@
     <Compile Include="2022\Jour6_2022.cs" />
     <Compile Include="2022\Jour7_2022.cs" />
     <Compile Include="2022\Jour8_2022.cs" />
+    <Compile Include="2022\Jour9_2022.cs" />
     <Compile Include="IJour.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
