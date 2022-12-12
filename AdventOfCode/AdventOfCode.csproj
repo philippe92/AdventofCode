@@ -78,6 +78,7 @@
     <Compile Include="2021\Jour7_2021.cs" />
     <Compile Include="2021\Jour8_2021.cs" />
     <Compile Include="2021\Jour9_2021.cs" />
+    <Compile Include="2022\Jour10_2022.cs" />
     <Compile Include="2022\Jour4_2022.cs" />
     <Compile Include="2022\Jour1_2022.cs" />
     <Compile Include="2022\Jour2_2022.cs" />
